@@ -1,0 +1,90 @@
+
+
+body {
+    font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+    background: rgb(105,99,209);
+background: linear-gradient(90deg, rgba(105,99,209,1) 0%, rgba(81,75,226,1) 8%, rgba(106,106,221,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ 
+}
+
+h1 {
+    color: #ffffff;
+}
+
+input[type="text"] {
+    font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.taskItem span {
+    flex-grow: 1;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.taskItem button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskItem button:hover {
+    background-color: #c0392b;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
